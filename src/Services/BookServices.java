@@ -15,7 +15,7 @@ public interface BookServices {
 
     boolean isBorrowed(String id);
 
-    public class Books {
+    class Books {
         private String id;
         private String title;
         private String author;
